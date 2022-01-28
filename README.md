@@ -1,1 +1,1 @@
-This repo contains simple codes and theory to understand OOPs concepts
+This repo contains simple codes and theory to understand OOPs concepts in Java
