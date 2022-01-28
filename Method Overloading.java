@@ -23,8 +23,8 @@ class Casio
 
 public class MethodOverloading {
 
-	public static void main(String[] args) {
-		// TODO Auto-generated method stub
+	public static void main(String[] args) 
+	{
 		
 		Casio obj = new Casio();
 		obj.add(3,5);
