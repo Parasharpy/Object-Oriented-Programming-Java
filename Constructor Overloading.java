@@ -26,8 +26,8 @@ class Calculator
 
 public class ConstructorOverloading {
 
-	public static void main(String[] args) {
-		// TODO Auto-generated method stub
+	public static void main(String[] args) 
+	{
 		
 		Calculator obj = new Calculator(2,5,"Overloading");
 		
