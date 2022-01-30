@@ -1,0 +1,1 @@
+Encapsulation in Java is a mechanism of wrapping the data (variables) and methods as single unit. In this way, variables of a class will be hidden from other classes, and can be accessed only through methods of their current class.
