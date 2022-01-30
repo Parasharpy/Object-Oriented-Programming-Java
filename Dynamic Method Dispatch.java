@@ -2,29 +2,29 @@ package oops;
 
 //Implementing Dynamic Method Dispatch
 
-class Icc 
-{ 
- void show() 
- { 
-     System.out.println("Internation Cricket Councel"); 
- } 
-} 
+class Icc
+{
+	void show()
+	{
+		System.out.println("Internation Cricket Councel");
+	}
+}
 
-class Bcci extends Icc 
-{ 
- void show()   // overriding show()
- { 
-     System.out.println("Indian Cricket Board"); 
- } 
-} 
+class Bcci extends Icc
+{
+	void show() //overriding show()
+	{
+		System.out.println("Indian Cricket Board");
+	}
+}
 
-class Ecb extends Icc 
-{ 
- void show()   // overriding show()
- { 
-     System.out.println("England Cricket Board"); 
- } 
-} 
+class Ecb extends Icc
+{
+	void show() // overriding show()
+	{
+		System.out.println("England Cricket Board");
+	}
+}
 
 
 public class DynamicMethodDispatch {
