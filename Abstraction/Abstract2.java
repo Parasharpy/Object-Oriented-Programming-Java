@@ -2,15 +2,15 @@ package oops;
 
 abstract class Writer //abstract class
 {
-  //abstract methods
+        //abstract methods
 	public abstract void write();
 	public abstract void erase();
 }
 
 class Pen extends Writer
 {
-  //abstract methods of abstract class need to be present inside concrete class which extends it
-  public void write()
+        //abstract methods of abstract class need to be present inside concrete class which extends it
+        public void write()
 	{
 		System.out.println("I am a pen");
 	}
@@ -24,7 +24,7 @@ class Pen extends Writer
 class Pencil extends Writer
 {
 	//abstract methods of abstract class need to be present inside concrete class which extends it
-  public void write()
+        public void write()
 	{
 		System.out.println("I am a pencil");
 	}
