@@ -16,3 +16,6 @@ public class AnonymousClassWithJava {
 	}
 
 }
+
+
+//output: I AM THE BEST
